@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Contact & Accident Reporting</title>
+    <div style="background:#ffe6e6; border-left:5px solid red; padding:15px; margin:20px 0; border-radius:8px;">
+<strong>⚠ In Case of an Accident</strong><br><br>
+1. Call the emergency numbers immediately.<br>
+2. Provide first aid if it is safe to do so.<br>
+3. Click <strong>Report Accident</strong> and submit the required details.
+</div>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Emergency QR Code</h2>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=http://127.0.0.1:5500/index.html" />
+
+<p>Scan to open emergency page</p>
+
+<div class="container">
+
+<div class="header">
+    <img src="ultratech-logo.png" alt="UltraTech Cement Logo" class="logo">
+    <h1>UltraTech Cement Ltd.</h1>
+</div>
+
+<h2 style="text-align:center;">Emergency Contact & Accident Reporting</h2>
+
+<p><strong>Vehicle Owner:</strong> Ultratech Cement Ltd.(Unit Bagheri Cement Works)  </p>
+
+<p><strong>Driver Name:</strong> Company Driver</p>
+
+<p><strong>Vehicle Number:</strong> Scan vehicle registration plate and mention it in the report</p>
+<div style="background:#fff3cd; border-left:5px solid orange; padding:15px; margin:20px 0;">
+<strong>⚠ Emergency Notice</strong><br>
+If this vehicle is involved in an accident, immediately contact the emergency numbers below or click <strong>Report Accident</strong>.
+</div>
+
+<p><strong>Emergency Contact 1:</strong> <a href="tel:8894856145">8894856145</a></p>
+
+<p><strong>Emergency Contact 2:</strong> <a href="tel:9805002850">9805002850</a></p>
+
+<p><strong>Company Ambulance:</strong> <a href="tel:7300211672">7300211672</a></p>
+
+<p><strong>Company Security 1:</strong> <a href="tel:7300211672">7300211672</a></p>
+
+<p><strong>Company Security 2:</strong> <a href="tel:7797281937">7797281937</a></p>
+
+<p><strong>Company Security 3:</strong> <a href="tel:8894596631">8894596631</a></p>
+
+<h2>Emergency Numbers</h2>
+
+<p>Police: <a href="tel:100">100</a></p>
+
+<p>Fire Brigade: <a href="tel:101">101</a></p>
+
+<p>Ambulance: <a href="tel:108">108</a></p>
+
+<p>PCR: <a href="tel:112">112</a></p>
+
+<p>Women Helpline: <a href="tel:1090">1090</a></p>
+
+<p>Child Helpline: <a href="tel:1098">1098</a></p>
+
+<p>Cyber Crime: <a href="tel:1930">1930</a></p>
+<h2>Address</h2>
+
+<p>
+UltraTech Cement Ltd. (Unit Bagheri Cement Works)<br>
+VPO Bagheri, Tehsil Nalagarh,<br>
+District Solan, Himachal Pradesh - 174101
+</p>
+
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAakxu0hUOTdMM0dBQThKRFRNNlpYV0VFT1lLQkw0Qi4u" target="_blank">
+    <div class="button-container">
+
+<a href="tel:7300211672">
+<button class="ambulance-btn">🚑 Call Ambulance</button>
+</a>
+
+<br><br>
+
+<a href="tel:7300211672">
+<button class="security-btn">🛡️ Call Security</button>
+</a>
+
+<br><br>
+
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAakxu0hUOTdMM0dBQThKRFRNNlpYV0VFT1lLQkw0Qi4u" target="_blank">
+<button class="report-btn">🚨 Report Accident</button>
+</a>
+
+</div>
+</a>
+
+</div>
+<hr>
+
+<p style="text-align:center; color:gray;">
+© 2026 UltraTech Cement Ltd.<br>
+Unit Bagheri Cement Works
+</p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<!-- page content -->
+<div id="qrcode"></div>
+
+<script>
+  var link = "https://your-link-here.com";
+
+  new QRCode(document.getElementById("qrcode"), {
+    text: link,
+    width: 200,
+    height: 200
+  });
+</script>
+
+</body>
+</html>
